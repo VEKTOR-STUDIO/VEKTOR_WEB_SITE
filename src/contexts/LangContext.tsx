@@ -54,6 +54,11 @@ const translations = {
       sub: "Somos dos ingenieros venezolanos con más de una década de experiencia combinada construyendo productos reales para clientes reales. Sin intermediarios — nosotros diseñamos, desarrollamos y lanzamos.",
       members: [
         {
+          avatar:{
+            initials: "CH",
+            gradient: "from-violet-500/30 to-pink-500/30",
+            ring: "rgba(139,92,246,0.4)",
+          },
           name: "Carlos Hernández",
           role: "Co-Founder & Engineering Lead",
           bio: "Ingeniero en Informática con 7+ años especializándose en arquitecturas backend, microservicios y desarrollo asistido por IA. Ha construido pasarelas de pago, sistemas BI y plataformas enterprise. Especialista en SDD con y agentes autónomos.",
@@ -61,6 +66,11 @@ const translations = {
           tags: ["Node.js", "Ruby on Rails", "PostgreSQL", "AI-Augmented Dev", "Microservicios", "Full Stack"],
         },
         {
+          avatar:{
+            initials: "AV",
+            gradient: "from-cyan-400/30 to-violet-500/30",
+            ring: "rgba(0,212,255,0.4)",
+          },
           name: "Alessandro Varuzza",
           role: "Co-Founder & Tech Lead",
           bio: "Full Stack developer con 7+ años de experiencia en Ruby on Rails, React y Next.js. Diseñador gráfico, fotógrafo y atleta de BJJ. Ha construido plataformas para empresas como PwC y productos como Sumly.ai.",

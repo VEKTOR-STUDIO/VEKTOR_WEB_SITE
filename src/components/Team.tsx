@@ -5,10 +5,6 @@ import { useLang } from "@/contexts/LangContext";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const AVATARS = [
-  { initials: "AV", gradient: "from-cyan-400/30 to-violet-500/30", ring: "rgba(0,212,255,0.4)" },
-  { initials: "CH", gradient: "from-violet-500/30 to-pink-500/30", ring: "rgba(139,92,246,0.4)" },
-];
 
 export const Team: React.FC = () => {
   const { t } = useLang();
@@ -55,10 +51,10 @@ export const Team: React.FC = () => {
 
         <div className="grid md:grid-cols-2 gap-6">
           {t.team.members.map((member, i) => {
-            const avatar = AVATARS[i];
+            const avatar = member.avatar;
             return (
               <div
-                key={member.name}
+                key={member.avatar.initials}
                 className="team-card group relative rounded-2xl overflow-hidden"
                 style={{
                   background: "linear-gradient(140deg, rgba(255,255,255,0.045) 0%, rgba(255,255,255,0.01) 100%)",
