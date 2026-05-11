@@ -54,19 +54,20 @@ const translations = {
       sub: "Somos dos ingenieros venezolanos con más de una década de experiencia combinada construyendo productos reales para clientes reales. Sin intermediarios — nosotros diseñamos, desarrollamos y lanzamos.",
       members: [
         {
+          name: "Carlos Hernández",
+          role: "Co-Founder & Engineering Lead",
+          bio: "Ingeniero en Informática con 7+ años especializándose en arquitecturas backend, microservicios y desarrollo asistido por IA. Ha construido pasarelas de pago, sistemas BI y plataformas enterprise. Especialista en SDD con y agentes autónomos.",
+          location: "Caracas, Venezuela",
+          tags: ["Node.js", "Ruby on Rails", "PostgreSQL", "AI-Augmented Dev", "Microservicios", "Full Stack"],
+        },
+        {
           name: "Alessandro Varuzza",
           role: "Co-Founder & Tech Lead",
-          bio: "Full Stack developer con 7+ años de experiencia en Ruby on Rails, React y Next.js. Diseñador gráfico, fotógrafo y atleta de BJJ. Ha construido plataformas para empresas como PwC y productos como Sumly.ai. Cree que el diseño y la ingeniería son la misma disciplina.",
+          bio: "Full Stack developer con 7+ años de experiencia en Ruby on Rails, React y Next.js. Diseñador gráfico, fotógrafo y atleta de BJJ. Ha construido plataformas para empresas como PwC y productos como Sumly.ai.",
           location: "Caracas, Venezuela",
           tags: ["Ruby on Rails", "React", "Next.js", "Supabase", "Diseño UI"],
         },
-        {
-          name: "Carlos Hernández",
-          role: "Co-Founder & Engineering Lead",
-          bio: "Ingeniero en Informática con 4+ años especializándose en arquitecturas backend, microservicios y desarrollo asistido por IA. Ha construido pasarelas de pago, sistemas BI y plataformas enterprise. Especialista en SDD con Cursor y agentes autónomos.",
-          location: "Caracas, Venezuela",
-          tags: ["Node.js", "Ruby on Rails", "PostgreSQL", "AI-Augmented Dev", "Microservicios"],
-        },
+     
       ],
     },
     manifesto: {
@@ -153,7 +154,7 @@ const translations = {
         {
           name: "Carlos Hernández",
           role: "Co-Founder & Engineering Lead",
-          bio: "Computer Engineer with 4+ years specializing in backend architectures, microservices and AI-augmented development. Has built payment gateways, BI systems and enterprise platforms. Specialist in SDD using Cursor and autonomous agents.",
+          bio: "Computer Engineer with 7+ years specializing in backend architectures, microservices and AI-augmented development. Has built payment gateways, BI systems and enterprise platforms. Specialist in SDD using Cursor and autonomous agents.",
           location: "Caracas, Venezuela",
           tags: ["Node.js", "Ruby on Rails", "PostgreSQL", "AI-Augmented Dev", "Microservices"],
         },
