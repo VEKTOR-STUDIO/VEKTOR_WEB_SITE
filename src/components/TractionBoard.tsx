@@ -24,19 +24,18 @@ const TICKER_CITIES = [
   "Vercel", "Stripe", "Prisma", "Redis", "Cursor", "GitHub Actions",
 ];
 
-const COUNTRIES = [
-  { country: "Ruby on Rails", flag: "⚙️" },
-  { country: "Next.js / React", flag: "⚛️" },
-  { country: "Node.js / Express", flag: "🟩" },
-  { country: "NestJS", flag: "🔴" },
-  { country: "PostgreSQL", flag: "🐘" },
-  { country: "Supabase", flag: "⚡" },
-  { country: "MongoDB", flag: "🍃" },
-  { country: "Redis", flag: "🔥" },
-  { country: "n8n", flag: "🔀" },
-  { country: "OpenAI / LLMs", flag: "🤖" },
-  { country: "Docker", flag: "🐳" },
-  { country: "Stripe / Pagos", flag: "💳" },
+const TECH_STACK = [
+    { tech: "Ruby on Rails"},
+    { tech: "Next.js / React"},
+  { tech: "Node.js / Express"},
+  { tech: "NestJS"},
+  { tech: "PostgreSQL"},
+  { tech: "Supabase"},
+  { tech: "MongoDB"},
+  { tech: "Redis"},
+  { tech: "n8n"},
+  { tech: "OpenAI / LLMs"},
+  { tech: "Docker"},
 ];
 
 function useCounter(target: number, trigger: boolean, duration = 1.8) {
@@ -197,10 +196,9 @@ export const TractionBoard: React.FC = () => {
             <div>
               <p className="text-white/15 text-xs font-mono uppercase tracking-widest mb-4">{t.impact.presence}</p>
               <div className="grid grid-cols-2 gap-2">
-                {COUNTRIES.map((c) => (
-                  <div key={c.country} className="flex items-center gap-2 py-2 px-3 rounded-lg border border-white/[0.05] bg-white/[0.02] hover:bg-white/[0.05] transition-colors duration-200">
-                    <span className="text-base leading-none">{c.flag}</span>
-                    <span className="text-white/40 text-xs font-light">{c.country}</span>
+                {TECH_STACK.map((c) => (
+                  <div key={c.tech} className="flex items-center gap-2 py-2 px-3 rounded-lg border border-white/[0.05] bg-white/[0.02] hover:bg-white/[0.05] transition-colors duration-200">
+                    <span className="text-base leading-none">{c.tech}</span>
                   </div>
                 ))}
               </div>
