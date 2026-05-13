@@ -98,7 +98,7 @@ export const ContactForm: React.FC = () => {
               </div>
               <div>
                 <div className="text-xs font-mono text-white/30 uppercase tracking-widest mb-0.5">Email</div>
-                <div className="text-white/70 text-sm">hola@vektor.build</div>
+                <div className="text-white/70 text-sm">info@vektorstudio.tech</div>
               </div>
             </div>
           </div>
